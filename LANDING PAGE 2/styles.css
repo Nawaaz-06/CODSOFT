@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #dd2f2f;
+}
+
+header {
+    background: #14cd58;
+    color: #5c0fd0;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 1em;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero-content button {
+    padding: 1em 2em;
+    background: #ff9900;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero-content button:hover {
+    background: #cc7a00;
+}
+
+section {
+    padding: 4em 1em;
+    text-align: center;
+}
+
+section#about {
+    background: #f4f4f4;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #f005ad;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #f50cd2;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #12d96c;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
+}
